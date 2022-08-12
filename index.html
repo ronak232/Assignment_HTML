@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment 2</title>
+    <style>
+      body {
+        background-color: beige;
+      }
+      .form {
+        width: 100%;
+        text-align: center;
+      }
+      .radio {
+        width: 100%;
+      }
+      #head {
+        font-size: 30px;
+      }
+      .label1 {
+        line-height: 1.6;
+        position: relative;
+        right: 12px;
+        font-size: 20px;
+        margin-right: 12px;
+        padding: 15px 12px;
+      }
+      .label2 {
+        font-size: 20px;
+      }
+      #btn {
+        margin: 12px 12px;
+        font-size: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="form">
+      <h3 id="head">Details Fillings</h3>
+
+      <form action="myForm.php" method="get">
+        <label for="fname" title="First Name" class="label1">First Name:</label>
+        <input type="text" />
+        <br />
+        <label for="fname" title="Last Name" class="label1">Last Name:</label>
+
+        <input type="text" /><br />
+        <label for="fname" title="City Name" class="label1">City:</label>
+
+        <input type="text" />
+        <br />
+        <label for="fname" title="Password" class="label1">Password:</label>
+
+        <input type="password" required />
+        <br />
+        <label for="fname" title="E-mail" class="label1">E-mail:</label>
+
+        <input type="email" required />
+        <br />
+        <label for="gender" class="label1">Gender:</label>
+        <select name="Gender" id="">
+          <option value="male" selected>Male</option>
+          <option value="male">Female</option>
+        </select>
+        <div>
+          <h4>Choose Favourite Language</h4>
+
+          <label for="HTML" class="label2">HTML</label>
+          <input type="checkbox" />
+          <br />
+          <label for="CSS" class="label2">Python</label>
+          <input type="checkbox" />
+          <br />
+          <label for="JavaSript" class="label2">JavaScript</label>
+          <input type="checkbox" />
+          <br />
+          <label for="JavaSript" class="label2">CSS</label>
+          <input type="checkbox" />
+          <br />
+          <label for="JavaSript" class="label2">Java</label>
+          <input type="checkbox" />
+        </div>
+        <button id="btn">Submit</button>
+        <div>
+          <textarea
+            name="comment"
+            id=""
+            cols="30"
+            rows="4"
+            placeholder="Please Comment"
+          ></textarea>
+        </div>
+      </form>
+      <div>
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/HcOc7P5BMi4"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </div>
+    </div>
+  </body>
+</html>
